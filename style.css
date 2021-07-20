@@ -469,7 +469,6 @@ form {
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
     -webkit-transition: 0.4s;
-
     transition: 0.4s;
 }
 
@@ -1529,6 +1528,7 @@ footer {
     }
     .filter_name {
         width: 100%;
+        word-wrap: break-word;
         white-space: unset;
         font-size: 28px;
     }
