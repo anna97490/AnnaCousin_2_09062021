@@ -631,7 +631,7 @@ form {
 footer {
     width: 100%;
 }
-.piedpage {
+.footer_container {
     display: -webkit-box;
     display: flex;
     height: 270px;
@@ -640,15 +640,15 @@ footer {
     background-color: #f2f2f2;
 }
 
-.piedpage ul{
+.footer_container ul{
     font-weight: normal;
 }
 
-.piedpage h3 {
+.footer_container h3 {
     margin-top: 50px;
 }
 
-.piedpage ul li {
+.footer_container ul li {
     padding: 5px 0;
     list-style: none;
 }
@@ -1081,13 +1081,13 @@ footer {
         color: black;
         font-weight: bold;
     }
-    .piedpage {
+    .footer_container {
         padding: 0 9%;
     }
-    .piedpage h3 {
+    .footer_container h3 {
         font-size: 20px;
     }
-    .piedpage ul {
+    .footer_container ul {
         font-size: 17px;
     }
 }
@@ -1392,17 +1392,17 @@ footer {
     .img_card6 {
         height: 220px;
     }
-   .piedpage {
+   .footer_container {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         flex-direction: column;
         height: 100%;
         padding: 0 8%;
    }
-   .piedpage h3 {
+   .footer_container h3 {
         font-size: 22px;
    }
-   .piedpage ul li {
+   .footer_container ul li {
         padding: 5px 0;
         font-size: 19px;
    }
@@ -1737,16 +1737,16 @@ footer {
     .img_card6 {
         height: 205px;
     }
-   .piedpage {
+   .footer_container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         flex-direction: column;
         height: 100%;
    }
-   .piedpage h3 {
+   .footer_container h3 {
         font-size: 22px;
    }
-   .piedpage ul li {
+   .footer_container ul li {
         padding: 5px 0;
         font-size: 19px;
    }
