@@ -85,8 +85,9 @@ header {
 
 .search span {
     font-size: 20px;
-    font-weight: normal;
+    font-weight: normal; 
 }
+
 .search_bar {
     display: -webkit-box;
     display: flex;
@@ -208,8 +209,8 @@ form {
 }
 
 .fas.fa-info.fa-xs {
-    width: 22px;
-    height: 22px;
+    width: 24px;
+    height: 24px;
     line-height: 22px;
     text-align: center;
     margin-right: 13px;
