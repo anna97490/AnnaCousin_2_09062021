@@ -79,11 +79,12 @@ header {
 /* BARRE DE RECHERCHES HEBERGEMENT */
 .search_title {
     margin-top: 35px;
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 11px;
 }
 
 .search span {
+    font-size: 20px;
     font-weight: normal;
 }
 .search_bar {
