@@ -78,13 +78,11 @@ body {
 /* BARRE DE RECHERCHES HEBERGEMENT */
 .search_title {
     margin-top: 35px;
-    font-size: 22px;
     margin-bottom: 11px;
 }
 
-.search span {
-    font-size: 20px;
-    font-weight: normal; 
+.search_description {
+    font-weight: normal;
 }
 
 .search_bar {
@@ -152,7 +150,7 @@ form {
 
 .filter_title {
     margin: 0 35px 11px 0;
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .filter {
@@ -186,8 +184,7 @@ form {
     font-size: 18px;
     padding-left: 13px;
     padding-right: 13px;
-    white-space: nowrap;
-    
+    white-space: nowrap;  
 }
 
 .filter_name:hover {
@@ -222,9 +219,10 @@ form {
     font-weight: normal; 
 }
 
-/* CORPS DE PAGE HEBERGEMENT MARSEILLE1 */
+/* CORPS DE PAGE SECTION HEBERGEMENT */
 #Hebergements {
     display: flex;
+    margin-top: 40px;
 }
 
 #Hebergements article {
@@ -238,9 +236,8 @@ form {
 }
 
 .title_hebergements {
-    margin: 35px 0 15px 0px;
-    padding-left: 4%;
-    font-size: 22px;
+    margin: 35px 0 25px 0px;
+    padding-left: 39px;
     font-weight: bold;
     color: black;
     text-decoration: none;
@@ -314,7 +311,7 @@ form {
 
 .afficherplus {
     padding-left: 4%;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     text-decoration: none;
     color: black;
@@ -337,20 +334,19 @@ form {
     display: flex;
     -webkit-box-pack: justify;
     justify-content: space-between;
-    padding-left: 9%;
+    padding-left: 39px;
 }
 
 .title_cont2 h2 {
-    font-size: 22px;
     text-decoration: none;
     color: black;
     cursor: pointer;
-    margin: 35px 0 15px 0px;
+    margin: 35px 0 25px 0px;
 }
 
 .fas.fa-chart-line {
     margin-top: 40px;
-    font-size: 22px;
+    font-size: 23px;
     padding-right: 9%;
 }
 
@@ -421,9 +417,13 @@ form {
 
 /* ACTIVITES A MARSEILLE */
 #Activites {
-    text-decoration: none;
+    margin-top: 65px;
     color: black;
     cursor: pointer;
+}
+
+.Activites_title {
+    margin-bottom: 25px;
 }
 
 .activities_content {
@@ -622,7 +622,6 @@ footer {
 .footer_container {
     display: -webkit-box;
     display: flex;
-    height: 270px;
     margin-top: 70px;
     padding: 0 4%;
     background-color: #f2f2f2;
@@ -662,23 +661,26 @@ footer {
     cursor: pointer;
 }
 
-
+/* MEDIA QUERIES */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     .filter_bar {
         flex-wrap: wrap;
     }
-    
     #Hebergements {
+        flex-wrap: wrap;
+    }
+    #Hebergements article {
+        width: 100%;
         margin-right: 0;
     }
-    .cards1 h2{
+    .cards1 h2 {
         font-size: 17px;
         width: 305px;
     }
-    .description1{
+    .description1 {
         font-size: 15px;
     }
-    .afficherplus{
+    .afficherplus {
         font-size: 18px;
     }
     .all_cards2 {
@@ -725,7 +727,7 @@ footer {
         font-size: 17px;
     }
     .description2 {
-        width: 260px;
+        width: 200px;
     }
     .description2 span {
         font-size: 15px;
@@ -762,13 +764,16 @@ footer {
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    #bloc_page {
+        margin: 0 2%;
+    }
     .filter_bar {
         flex-wrap: wrap;
     }
-    .main {
+    #Hebergements {
         flex-wrap: wrap;
     }
-    #Hebergements {
+    #Hebergements article {
         width: 100%;
         margin-right: 0;
     }
@@ -864,6 +869,9 @@ footer {
 }
 
 @media screen and (min-width: 584px) and (max-width: 767px) {
+    #bloc_page {
+        margin: 0 2%;
+    }
     .navigation nav ul {
         padding: 0;
     }
@@ -877,17 +885,20 @@ footer {
         flex-wrap: wrap;
     }
     #Hebergements {
-        width: 100%;
-        padding-left: 6%;
+        flex-wrap: wrap;
         margin-right: 0;
-        margin-top: 40px;
+    }
+    #Hebergements article {
+        width: 100%;
+        margin-right: 0;
+        padding: 0 5%;
     }
     .title_hebergements {
         padding-left: 0;
-        font-size: 32px;
+        font-size: 30px;
     }
     .all_cards1 {
-        width: 88%;
+        width: 100%;
     }
     .cards1 {
         width: 100%;
@@ -922,27 +933,25 @@ footer {
         justify-content: center;
         width: 100%;
         margin-top: 40px;
+        padding: 0 5%;
     }
     .title_cont2 {
         width: 100%;
-        padding-left: 6%;
+        padding-left: 0;
     }
-    .title_cont2 > h2{
-        font-size: 32px;
+    .title_cont2  h2{
+        font-size: 30px;
     }
     .fas.fa-chart-line {
         font-size: 28px;
+        padding-right: 0;
     }
     .all_cards2 {
-        width: 87%;
+        width: 100%;
     }
     .cards2 {
         width: 100%;
         height: 185px;
-    }
-    .fas.fa-chart-line {
-        margin-right: 0;
-        padding-right: 6%;
     }
     .cards2 a h2 {
         font-size: 22px;
@@ -957,7 +966,7 @@ footer {
         height: 185px;
     }
     .description2 {
-        width: 315px;
+        width: 50%;
     }
     .description2 span {
         font-size: 18px;
@@ -974,8 +983,10 @@ footer {
         font-size: 23px;
     }
     #Activites {
-        padding-left: 6%;
-        font-size: 32px;
+        padding: 0 5%;
+    }
+    .Activites_title {
+        font-size: 30px;
     }
     .activities_content {
         -webkit-box-orient: vertical;
@@ -983,17 +994,16 @@ footer {
         flex-direction: column;
         -webkit-box-align: center;
         align-items: center;
-        width: 100%;
     }
     .all_cards3 {
         flex-direction: column;
-        width: 88%;
+        width: 100%;
     }
     .all_cards4 {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         flex-direction: column;
-        width: 88%;
+        width: 100%;
     }
     .card1 {
         width: 100%;
@@ -1067,17 +1077,30 @@ footer {
         font-weight: bold;
     }
     .footer_container {
-        padding: 0 9%;
+        padding: 0 7%;
+        justify-content: space-between;
     }
     .footer_container h3 {
-        font-size: 20px;
+        font-size: 22px;
     }
     .footer_container ul {
-        font-size: 17px;
+        font-size: 20px;
+    }
+    .apropos {
+        width: 25%;
+    }
+    .noshebergements {
+        width: 25%;
+    }
+    .assistance {
+        width: 25%;
     }
 }
 
 @media screen and (min-width: 421px) and (max-width: 583px) {
+    #bloc_page {
+        margin: 0;
+    }
     header {
         width: 100%;
     }
@@ -1136,7 +1159,7 @@ footer {
     .search_title {
         font-size: 30px;
     }
-    .search span {
+    .search_description {
         font-size: 22px;
     }
     .search_bar {
@@ -1170,7 +1193,7 @@ footer {
     .filter_title {
         width: 100%;
         margin-bottom: 15px;
-        font-size: 26px;
+        font-size: 25px;
     }
     .filter {
         margin-right: 10px;
@@ -1195,15 +1218,15 @@ footer {
     .info span {
         font-size: 18px;
     }
-    .main {
-        flex-wrap: wrap-reverse;
-    }
     #Hebergements {
+        flex-wrap: wrap-reverse;
+    } 
+    #Hebergements article {
         width: 100%;
-        margin-top: 40px;
+        margin-top: 30px;
         margin-right: 0;
         background-color: transparent;
-    } 
+    }
     .title_hebergements {
         margin: 40px 0 35px 0;
         padding-left: 5%;
@@ -1214,11 +1237,13 @@ footer {
     }
     .cards1 {
         width: 90%;
-        height: 280px;
+        height: 270px;
+        margin-bottom: 20px;
     }
     .img_cards1 {
         width: 100%;
-        height: 170px;
+        height: 155px;
+        margin-bottom: 5px;
     }
     .cards1 h2 {
         width: 100%;
@@ -1236,13 +1261,17 @@ footer {
         padding-left: 5%;
         font-size: 23px;
     }
+    .plus {
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
     .container2 {
         width: 100%;
         border-radius: 0;
     }
     .title_cont2 {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 3%;
+        padding-right: 3%;
     }
     .title_cont2 h2 {
         margin: 40px 0 35px 0;
@@ -1255,6 +1284,7 @@ footer {
     .cards2 {
         width: 90%;
         height: 190px;
+        margin-bottom: 20px;
     }
     .img_cards2 {
         width: 100%;
@@ -1290,24 +1320,27 @@ footer {
         flex-direction: column;
     }
     #Activites {
-        font-size: 30px;
+        width: 100%;
+    }
+    .Activites_title {
         margin: 40px 0 35px 0;
         padding-left: 5%;
+        font-size: 30px;
     }
     .all_cards3 {
         -webkit-box-pack: center;
         justify-content: center;
         flex-wrap: wrap;
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
     .card1 {
         width: 90%;
-        height: 280px;
-        margin-bottom: 40px;
+        height: 270px;
+        margin-bottom: 20px;
     }
     .img_card1 {
-        height: 220px;
+        height: 200px;
         width: 100%;
     }
     .description3 {
@@ -1325,17 +1358,18 @@ footer {
     }
     .card2 {
         width: 90%;
-        height: 280px;
+        height: 270px;
+        margin-bottom: 20px;
     }
     .img_card2 {
-        height: 220px;
+        height: 200px;
     }
     .card3 {
         width: 90%;
-        height: 280px;
+        height: 270px;
     }
     .img_card3 {
-        height: 220px;
+        height: 200px;
     }
     .all_cards4 {
         -webkit-box-pack: center;
@@ -1345,12 +1379,12 @@ footer {
     }
     .card4 {
         width: 90%;
-        height: 280px;
-        margin-bottom: 40px;
+        height: 270px;
+        margin-bottom: 20px;
         margin-right: 0;
     }
     .img_card4 {
-        height: 220px;
+        height: 200px;
     }
     .bloc2 {
         display: -webkit-box;
@@ -1365,17 +1399,18 @@ footer {
     }
     .card5 {
         width: 90%;
-        height: 280px;
+        height: 270px;
+        margin-bottom: 20px;
     }
     .img_card5 {
-        height: 220px;
+        height: 200px;
     }
     .card6 {
         width: 90%;
-        height: 280px;
+        height: 270px;
     }
     .img_card6 {
-        height: 220px;
+        height: 200px;
     }
    .footer_container {
         -webkit-box-orient: vertical;
@@ -1389,7 +1424,7 @@ footer {
    }
    .footer_container ul li {
         padding: 5px 0;
-        font-size: 19px;
+        font-size: 20px;
    }
    .apropos {
        width: 100%;
@@ -1406,7 +1441,7 @@ footer {
 
 @media screen and (max-width: 420px) {
     #bloc_page {
-        width: 99%;
+        margin: 0;
     }
     header {
         width: 100%;
@@ -1466,7 +1501,7 @@ footer {
     .search_title {
         font-size: 30px;
     }
-    .search span {
+    .search_description {
         font-size: 22px;
     }
     .search_bar {
@@ -1479,7 +1514,7 @@ footer {
         font-size: 27px;
     }
     .search_bar input {
-        color: transparent;
+        font-size: 26px;
     }
     #search_icon {
         width: 87px;
@@ -1535,30 +1570,32 @@ footer {
     .info span {
         font-size: 18px;
     }
-    .main {
-        flex-wrap: wrap-reverse;
-    }
     #Hebergements {
+        flex-wrap: wrap-reverse;
+    } 
+    #Hebergements article {
         width: 100%;
-        margin-top: 40px;
+        margin-top: 30px;
         margin-right: 0;
         background-color: transparent;
-    } 
+    }
     .title_hebergements {
         margin: 40px 0 35px 0;
-        padding-left: 0;
+        padding-left: 5%;
         font-size: 30px;
     }
     .all_cards1 {
         width: 100%;
     }
     .cards1 {
-        width: 100%;
-        height: 280px;
+        width: 90%;
+        height: 270px;
+        margin-bottom: 20px;
     }
     .img_cards1 {
         width: 100%;
-        height: 170px;
+        height: 155px;
+        margin-bottom: 10px;
     }
     .cards1 h2 {
         width: 100%;
@@ -1573,35 +1610,37 @@ footer {
         font-size: 17px;
     }
     .afficherplus {
-        padding-left: 0;
+        padding-left: 5%;
         font-size: 23px;
+    }
+    .plus {
+        margin-bottom: 0;
+        margin-top: 20px;
     }
     .container2 {
         width: 100%;
         border-radius: 0;
-        background-color: transparent;
     }
     .title_cont2 {
-        padding: 0;
+        padding-left: 3%;
+        padding-right: 3%;
     }
-    .title_cont2 > h2 {
+    .title_cont2 h2 {
         margin: 40px 0 35px 0;
         font-size: 30px;
-        width: 100%;
     }
     .fas.fa-chart-line {
-        float: right;
-        margin-top: 42px;
         padding: 0;
         font-size: 30px;
     }
     .cards2 {
-        width: 100%;
-        height: 201px;
+        width: 90%;
+        height: 190px;
+        margin-bottom: 20px;
     }
     .img_cards2 {
         width: 100%;
-        height: 201px;
+        height: 190px;
     }
     .cards2 a h2 {
         font-size: 22px;
@@ -1611,7 +1650,7 @@ footer {
         margin-right: 22px;
     }
     .description2 {
-        width: 50%;
+        width: 216px;
         text-decoration: none;
     }
     .description2 > span {
@@ -1621,7 +1660,7 @@ footer {
         font-weight: normal;
     }
     .stars2 {
-        margin-top: 15%;
+        margin-top: 25%;
         font-size: 17px;
     }
     .container_activities {
@@ -1633,25 +1672,29 @@ footer {
         flex-direction: column;
     }
     #Activites {
-        font-size: 30px;
+        width: 100%;
+    }
+    .Activites_title {
         margin: 40px 0 35px 0;
-        padding-left: 0;
+        padding-left: 5%;
+        font-size: 30px;
     }
     .all_cards3 {
         -webkit-box-pack: center;
         justify-content: center;
         flex-wrap: wrap;
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
     .card1 {
-        width: 100%;
-        height: 280px;
-        margin-bottom: 40px;
+        width: 90%;
+        height: 270px;
+        margin-bottom: 20px;
     }
     .img_card1 {
-        height: 220px;
+        height: 200px;
         width: 100%;
+        margin-bottom: 15px;
     }
     .description3 {
         font-size: 22px;
@@ -1661,26 +1704,27 @@ footer {
         display: flex;
         -webkit-box-pack: center;
         justify-content: center;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
         flex-direction: column;
         -webkit-box-align: center;
         align-items: center;
         width: 100%;
     }
     .card2 {
-        width: 100%;
-        height: 280px;
+        width: 90%;
+        height: 270px;
+        margin-bottom: 20px;
     }
     .img_card2 {
-        height: 205px;
+        height: 200px;
+        margin-bottom: 15px;
     }
     .card3 {
-        width: 100%;
-        height: 280px;
+        width: 90%;
+        height: 270px;
     }
     .img_card3 {
-        height: 205px;
+        height: 200px;
+        margin-bottom: 15px;
     }
     .all_cards4 {
         -webkit-box-pack: center;
@@ -1689,13 +1733,14 @@ footer {
         flex-wrap: wrap;
     }
     .card4 {
-        width: 100%;
-        height: 280px;
-        margin-bottom: 40px;
+        width: 90%;
+        height: 270px;
+        margin-bottom: 20px;
         margin-right: 0;
     }
     .img_card4 {
-        height: 205px;
+        height: 200px;
+        margin-bottom: 15px;
     }
     .bloc2 {
         display: -webkit-box;
@@ -1709,43 +1754,48 @@ footer {
         margin-left: 0;
     }
     .card5 {
-        width: 100%;
-        height: 280px;
+        width: 90%;
+        height: 270px;
+        margin-bottom: 20px;
     }
     .img_card5 {
-        height: 205px;
+        height: 200px;
+        margin-bottom: 15px;
     }
     .card6 {
-        width: 100%;
-        height: 280px;
+        width: 90%;
+        height: 270px;
     }
     .img_card6 {
-        height: 205px;
+        height: 200px;
+        margin-bottom: 15px;
     }
-   .footer_container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
+    .footer_container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
         flex-direction: column;
         height: 100%;
-   }
-   .footer_container h3 {
+        padding: 0 8%;
+    }
+    .footer_container h3 {
         font-size: 22px;
-   }
-   .footer_container ul li {
+    }
+    .footer_container ul li {
         padding: 5px 0;
-        font-size: 19px;
-   }
-   .apropos {
-       width: 100%;
-   }
-   .noshebergements {
-       width: 100%;
-       padding-left: 0;
-   }
-   .assistance {
-       width: 100%;
-       padding-left: 0;
-   }
+        font-size: 20px;
+    }
+    .apropos {
+    width: 100%;
+    }
+    .noshebergements {
+    width: 100%;
+    padding-left: 0;
+    }
+    .assistance {
+    width: 100%;
+    padding-left: 0;
+    }
+
 }
 
 
