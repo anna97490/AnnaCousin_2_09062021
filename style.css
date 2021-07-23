@@ -13,6 +13,10 @@ body {
 }
 
 #bloc_page {
+    margin: auto;
+}
+
+.container {
     width: 1400px;
     margin: auto;
 }
@@ -425,14 +429,10 @@ form {
 }
 
 /* ACTIVITES A MARSEILLE */
-.container_activities {
-    width: 100%;
-    margin-top: 70px;
-}
-
 #Activites {
-    margin-bottom: 15px;
-    font-size: 22px;
+    width: 1400px;
+    margin: auto;
+    margin-top: 70px;
     text-decoration: none;
     color: black;
     cursor: pointer;
@@ -636,7 +636,7 @@ footer {
     display: flex;
     height: 270px;
     margin-top: 70px;
-    padding: 0 4%;
+    padding: 0 6%;
     background-color: #f2f2f2;
 }
 
