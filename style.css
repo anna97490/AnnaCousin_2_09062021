@@ -6,21 +6,22 @@
 /* PARAMETRES GENERAUX */
 body {
     max-width: 100%;
+    margin: 0;
+    padding: 0;
     font-family: "Raleway" , "Arial" , "Sans serif";
     font-weight: bold;
 }
 
 #bloc_page {
-    width: 92%;
+    width: 1400px;
     margin: auto;
 }
 
 /* EN-TETE LOGO NAV BARRE */
-header {
-    display: -webkit-box;
+.search {
     display: flex;
-    -webkit-box-pack: justify;
-    justify-content: space-between ;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -224,13 +225,14 @@ form {
 }
 
 /* CORPS DE PAGE HEBERGEMENT MARSEILLE1 */
-.main {
-    display: -webkit-box;
+#Hebergements {
     display: flex;
-    margin-top: 20px;
+    width: 1400px;
+    margin: auto;
+    margin-top: 40px;
 }
 
-#Hebergements {
+#Hebergements article {
     display: -webkit-box;
     display: flex;
     flex-wrap: wrap; 
@@ -424,9 +426,7 @@ form {
 
 /* ACTIVITES A MARSEILLE */
 .container_activities {
-    display: -webkit-box;
-    display: flex;
-    flex-wrap: wrap;
+    width: 100%;
     margin-top: 70px;
 }
 
@@ -679,12 +679,9 @@ footer {
     .filter_bar {
         flex-wrap: wrap;
     }
-    .main {
-        flex-wrap: wrap;
-    }
+    
     #Hebergements {
         margin-right: 0;
-        width: 100%;
     }
     .cards1 h2{
         font-size: 17px;
