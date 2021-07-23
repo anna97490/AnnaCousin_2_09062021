@@ -13,19 +13,13 @@ body {
 }
 
 #bloc_page {
-    margin: auto;
-}
-
-.container {
-    width: 1400px;
-    margin: auto;
+    margin: 0 4%;
 }
 
 /* EN-TETE LOGO NAV BARRE */
-.search {
+.header_content {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .logo {
@@ -231,9 +225,6 @@ form {
 /* CORPS DE PAGE HEBERGEMENT MARSEILLE1 */
 #Hebergements {
     display: flex;
-    width: 1400px;
-    margin: auto;
-    margin-top: 40px;
 }
 
 #Hebergements article {
@@ -430,9 +421,6 @@ form {
 
 /* ACTIVITES A MARSEILLE */
 #Activites {
-    width: 1400px;
-    margin: auto;
-    margin-top: 70px;
     text-decoration: none;
     color: black;
     cursor: pointer;
@@ -636,7 +624,7 @@ footer {
     display: flex;
     height: 270px;
     margin-top: 70px;
-    padding: 0 6%;
+    padding: 0 4%;
     background-color: #f2f2f2;
 }
 
