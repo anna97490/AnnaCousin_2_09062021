@@ -250,7 +250,7 @@ form {
     border-radius: 20px;
 }
 
-.title_hebergements {
+.hebergements_title {
     margin: 35px 0 25px 0px;
     padding-left: 4%;
     font-weight: bold;
@@ -670,13 +670,7 @@ footer {
     padding: 0;
 }
 
-.noshebergements {
-    width: 33%;
-    padding-left: 63px;
-    cursor: pointer;
-}
-
-.assistance {
+.noshebergements , .assistance {
     width: 33%;
     padding-left: 63px;
     cursor: pointer;
@@ -684,10 +678,7 @@ footer {
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-    .filter_bar {
-        flex-wrap: wrap;
-    }
-    #Hebergements {
+    #Hebergements , .filter_bar {
         flex-wrap: wrap;
     }
     #Hebergements article {
@@ -770,18 +761,9 @@ footer {
         width: 100%;
         margin-top: 40px;
     }
-    .card1 {
+    .card1 , .bloc1 , .card4 , .bloc2 {
         width: 48%;
     }
-    .bloc1 {
-        width: 48%;
-    }
-    .card4 {
-        width: 48%;
-    }
-    .bloc2 {
-        width: 48%;
-    } 
     .description3 {
         font-size: 17px;
     }
@@ -789,27 +771,21 @@ footer {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     #bloc_page {
-        margin: 0 2%;
+        margin: 0 1%;
     }
-    .filter_bar {
-        flex-wrap: wrap;
-    }
-    #Hebergements {
+    #Hebergements , .filter_bar {
         flex-wrap: wrap;
     }
     #Hebergements article {
         width: 100%;
         margin-right: 0;
     }
-    .title_hebergements {
+    .hebergements_title {
         padding-left: 3%;
     }
     .cards1 {
         width: 45%;
         height: 205px;
-    }
-    .img_card1 {
-        height: 356px;
     }
     .cards1 h2 {
         font-size: 18px;
@@ -885,16 +861,7 @@ footer {
         width: 100%;
         margin-top: 40px;
     }
-    .card1 {
-        width: 48%;
-    }
-    .bloc1 {
-        width: 48%;
-    }
-    .card4 {
-        width: 48%;
-    }
-    .bloc2 {
+    .card1 , .bloc1 , .card4 , .bloc2 {
         width: 48%;
     }
     .description3 {
@@ -904,7 +871,7 @@ footer {
 
 @media screen and (min-width: 584px) and (max-width: 767px) {
     #bloc_page {
-        margin: 0 2%;
+        margin: 0 1%;
     }
     .navigation nav ul {
         padding: 0;
@@ -931,9 +898,9 @@ footer {
         margin-top: 70px;
         padding: 0 2%;
     }
-    .title_hebergements {
+    .hebergements_title {
         padding-left: 0;
-        font-size: 30px;
+        font-size: 28px;
     }
     .hebergements_allcards {
         width: 100%;
@@ -972,7 +939,7 @@ footer {
         padding-left: 0;
     }
     .hebergementspop_title  h2{
-        font-size: 30px;
+        font-size: 28px;
     }
     .fas.fa-chart-line {
         font-size: 28px;
@@ -1020,7 +987,7 @@ footer {
         padding: 0 2%;
     }
     .activites_title {
-        font-size: 30px;
+        font-size: 28px;
     }
     .activites_content {
         -webkit-box-orient: vertical;
@@ -1039,69 +1006,20 @@ footer {
         flex-direction: column;
         width: 100%;
     }
-    .card1 {
-        width: 100%;
-        height: 280px;
-        margin: auto;
-        margin-bottom: 40px;
-    }
-    .img_card1 {
-        height: 220px;
-    }
-    .bloc1 {
+    .bloc1 , .bloc2 {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         flex-direction: column;
         width: 100%;
         margin-bottom: 0;       
     }
-    .card2 {
+    .card1 , .card2 , .card3 , .card4 , .card5 , .card6 {
         width: 100%;
         height: 280px;
+        margin: auto;
         margin-bottom: 40px;
     }
-    .img_card2 {
-        height: 220px;
-    }
-    .card3 {
-        width: 100%;
-        height: 280px;
-        margin-bottom: 40px;
-    }
-    .img_card3 {
-        height: 220px;
-    }
-    .card4 {
-        width: 100%;
-        height: 280px;
-        margin-bottom: 40px;
-        margin-right: 0;
-    }
-    .img_card4 {
-        height: 220px;
-    }
-    .bloc2 {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        flex-direction: column; 
-        width: 100%;
-        margin-left: 0; 
-    }
-    .card5 {
-        width: 100%;
-        height: 280px;
-        margin-bottom: 40px;
-    }
-    .img_card5 {
-        width: 100%;
-        height: 220px;
-    }
-    .card6 {
-        width: 100%;
-        height: 280px;
-        margin-bottom: 40px;
-    }
-    .img_card6 {
+    .img_card1 , .img_card2 , .img_card3 , .img_card4 , .img_card5 , .img_card6 {
         height: 220px;
     }
     .description3{
@@ -1120,13 +1038,7 @@ footer {
     .footer_container ul {
         font-size: 20px;
     }
-    .apropos {
-        width: 25%;
-    }
-    .noshebergements {
-        width: 25%;
-    }
-    .assistance {
+    .apropos , .noshebergements , .assistance {
         width: 25%;
     }
 }
@@ -1256,7 +1168,7 @@ footer {
         padding: 0;
         background-color: transparent;
     }
-    .title_hebergements {
+    .hebergements_title {
         margin: 0 0 35px 0;
         padding-left: 0;
         font-size: 28px;
@@ -1296,7 +1208,7 @@ footer {
     }
     .hebergementspop {
         width: 100%;
-        padding: 0 2% 8% 2%;
+        padding: 0 3% 8% 2%;
         border-radius: 0;
     }
     .hebergementspop_title {
@@ -1364,95 +1276,35 @@ footer {
         font-size: 28px;
     }
     .activites_allcards {
-        -webkit-box-pack: center;
-        justify-content: center;
         flex-wrap: wrap;
-        width: 97%;
+        width: 100%;
         margin-bottom: 20px;
     }
-    .card1 {
+    .card1 , .card2 , .card4 , .card5 {
         width: 100%;
         height: 270px;
         margin-bottom: 20px;
     }
-    .img_card1 {
+    .img_card1 , .img_card2 , .img_card3 , .img_card4 , .img_card5 , .img_card6 {
         height: 200px;
-        width: 100%;
         margin-bottom: 18px;
     }
     .description3 {
         font-size: 20px;
     }
-    .bloc1 {
+    .bloc1 , .bloc2 {
         display: -webkit-box;
         display: flex;
-        -webkit-box-pack: center;
-        justify-content: center;
         flex-direction: column;
-        -webkit-box-align: center;
-        align-items: center;
         width: 100%;
     }
-    .card2 {
+    .card3 , .card6 {
         width: 100%;
         height: 270px;
-        margin-bottom: 20px;
-    }
-    .img_card2 {
-        height: 200px;
-        margin-bottom: 18px;
-    }
-    .card3 {
-        width: 100%;
-        height: 270px;
-    }
-    .img_card3 {
-        height: 200px;
-        margin-bottom: 18px;
     }
     .activites_allcards2 {
-        -webkit-box-pack: center;
-        justify-content: center;
         width: 97%;
         flex-wrap: wrap;
-    }
-    .card4 {
-        width: 100%;
-        height: 270px;
-        margin-bottom: 20px;
-        margin-right: 0;
-    }
-    .img_card4 {
-        height: 200px;
-        margin-bottom: 18px;
-    }
-    .bloc2 {
-        display: -webkit-box;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        flex-direction: column;
-        -webkit-box-align: center;
-        align-items: center;
-        width: 100%;
-        margin-left: 0;
-    }
-    .card5 {
-        width: 100%;
-        height: 270px;
-        margin-bottom: 20px;
-    }
-    .img_card5 {
-        height: 200px;
-        margin-bottom: 18px;
-    }
-    .card6 {
-        width: 100%;
-        height: 270px;
-    }
-    .img_card6 {
-        height: 200px;
-        margin-bottom: 18px;
     }
    .footer_container {
         -webkit-box-orient: vertical;
@@ -1609,7 +1461,7 @@ footer {
         margin-right: 0;
         background-color: transparent;
     }
-    .title_hebergements {
+    .hebergements_title {
         margin: 0 0 35px 0;
         padding-left: 0;
         font-size: 28px;
@@ -1651,7 +1503,7 @@ footer {
     }
     .hebergementspop {
         width: 100%;
-        padding: 0 2%;
+        padding: 0 3% 8% 2%;
         border-radius: 0;
     }
     .hebergementspop_title {
@@ -1685,7 +1537,7 @@ footer {
     .description2 {
         margin-top: 10px;
     }
-    .description2 > span {
+    .description2 span {
         font-size: 18px;
     }
     strong {
@@ -1713,18 +1565,16 @@ footer {
         font-size: 28px;
     }
     .activites_allcards {
-        -webkit-box-pack: center;
-        justify-content: center;
         flex-wrap: wrap;
         width: 100%;
         margin-bottom: 20px;
     }
-    .card1 {
+    .card1 , .card2 , .card4 , .card5 {
         width: 100%;
         height: 270px;
         margin-bottom: 20px;
     }
-    .img_card1 {
+    .img_card1 , .img_card2 , .img_card3 , .img_card4 , .img_card5 , .img_card6 {
         height: 200px;
         width: 100%;
         margin-bottom: 18px;
@@ -1732,76 +1582,19 @@ footer {
     .description3 {
         font-size: 20px;
     }
-    .bloc1 {
+    .bloc1 , .bloc2 {
         display: -webkit-box;
         display: flex;
-        -webkit-box-pack: center;
-        justify-content: center;
         flex-direction: column;
-        -webkit-box-align: center;
-        align-items: center;
         width: 100%;
     }
-    .card2 {
+    .card3 , .card6 {
         width: 100%;
         height: 270px;
-        margin-bottom: 20px;
-    }
-    .img_card2 {
-        height: 200px;
-        margin-bottom: 18px;
-    }
-    .card3 {
-        width: 100%;
-        height: 270px;
-    }
-    .img_card3 {
-        height: 200px;
-        margin-bottom: 18px;
     }
     .activites_allcards2 {
-        -webkit-box-pack: center;
-        justify-content: center;
         width: 100%;
         flex-wrap: wrap;
-    }
-    .card4 {
-        width: 100%;
-        height: 270px;
-        margin-bottom: 20px;
-        margin-right: 0;
-    }
-    .img_card4 {
-        height: 200px;
-        margin-bottom: 18px;
-    }
-    .bloc2 {
-        display: -webkit-box;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        flex-direction: column;
-        -webkit-box-align: center;
-        align-items: center;
-        width: 100%;
-        margin-left: 0;
-    }
-    .card5 {
-        width: 100%;
-        height: 270px;
-        margin-bottom: 18px;
-    }
-    .img_card5 {
-        height: 200px;
-        margin-bottom: 18px;
-    }
-    .card6 {
-        width: 100%;
-        height: 270px;
-    }
-    .img_card6 {
-        height: 200px;
-        margin-bottom: 18px;
     }
     .footer_container {
         -webkit-box-orient: vertical;
