@@ -156,36 +156,35 @@ form {
 }
 
 .filter {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
     height: 47px;
-    margin-right: 35px;
-    margin-bottom: 10px;
+    margin: 0 25px 10px 0;
     border: 3px solid #f2f2f2;
     border-left: none;
     border-radius: 40px;
 }
 
-.filter a {
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-}
-
 .filter_img {
-    width: 24px;
-    padding: 12px;
+    display: inline-block;
     text-align: center;
-    line-height: 24px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
     color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 35px;
 }
 
 .filter_name {
+    display: inline-block;
     font-size: 21px;
     padding-left: 13px;
     padding-right: 20px;
-    white-space: nowrap;  
+    /*white-space: nowrap; */ 
 }
 
 .filter_name:hover {
@@ -1116,7 +1115,7 @@ footer {
         -webkit-box-direction: reverse;
         flex-direction: column-reverse;
         width: 100%;
-        font-size: 20px;
+        font-size: 22px;
     }
     .navigation nav {
         margin: 0;
@@ -1153,7 +1152,7 @@ footer {
         border: none;
     }
     .search_title {
-        font-size: 30px;
+        font-size: 28px;
     }
     .search_description {
         font-size: 22px;
@@ -1165,11 +1164,11 @@ footer {
     .fas.fa-map-marker-alt {
         width: 38px;
         padding: 20px;
-        font-size: 25px;
+        font-size: 26px;
     }
     .search_bar input {
         width: 100%;
-        font-size: 26px;
+        font-size: 22px;
     }
     #search_icon {
         width: 87px;
@@ -1190,20 +1189,21 @@ footer {
     .filter_title {
         width: 100%;
         margin-bottom: 15px;
-        font-size: 25px;
+        font-size: 22px;
     }
     .filter {
-        margin-right: 10px;
+        margin:0 10px 10px 0;
         height: 57px;
     }
     .filter_name {
-        font-size: 26px;
+        padding: 0 15px 0 10px;
+        font-size: 22px;
     }
     .filter_img {
-        width: 35px;
-        height: 35px;
-        line-height: 35px;
+        width: 55px;
+        height: 55px;
         font-size: 22px;
+        line-height: 55px;
     }
     .fas.fa-info.fa-xs {
         width: 30px;
@@ -1227,7 +1227,7 @@ footer {
     .title_hebergements {
         margin: 40px 0 35px 0;
         padding-left: 5%;
-        font-size: 30px;
+        font-size: 28px;
     }
     .all_cards1 {
         width: 100%;
@@ -1243,20 +1243,20 @@ footer {
         margin-bottom: 5px;
     }
     .cards1 h2 {
-        width: 100%;
-        margin-bottom: 10px;
-        font-size: 22px;
+        margin-left: 12px;
+        font-size: 20px;
     }
     .description1 {
+        margin: 10px 0 0px 12px;
         font-size: 18px;
     }
     .stars1 {
-        margin: 10px 0 0px 10px;
+        margin: 10px 0 0px 12px;
         font-size: 17px;
     }
     .afficherplus {
-        padding-left: 5%;
-        font-size: 23px;
+        padding-left: 4%;
+        font-size: 22px;
     }
     .plus {
         margin-bottom: 0;
@@ -1264,19 +1264,20 @@ footer {
     }
     .container2 {
         width: 100%;
+        padding-bottom: 30px;
         border-radius: 0;
     }
     .title_cont2 {
-        padding-left: 3%;
-        padding-right: 3%;
+        padding-left: 4%;
+        padding-right: 4%;
     }
     .title_cont2 h2 {
         margin: 40px 0 35px 0;
-        font-size: 30px;
+        font-size: 28px;
     }
     .fas.fa-chart-line {
         padding: 0;
-        font-size: 30px;
+        font-size: 28px;
     }
     .cards2 {
         width: 90%;
@@ -1288,15 +1289,14 @@ footer {
         height: 190px;
     }
     .cards2 a h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
     .bloc_img2 {
         width: 40%;
-        margin-right: 22px;
+        margin-right: 12px;
     }
     .description2 {
-        width: 50%;
-        text-decoration: none;
+        margin-top: 10px;
     }
     .description2 > span {
         font-size: 18px;
@@ -1322,7 +1322,7 @@ footer {
     .Activites_title {
         margin: 40px 0 35px 0;
         padding-left: 5%;
-        font-size: 30px;
+        font-size: 28px;
     }
     .all_cards3 {
         -webkit-box-pack: center;
@@ -1339,9 +1339,10 @@ footer {
     .img_card1 {
         height: 200px;
         width: 100%;
+        margin-bottom: 18px;
     }
     .description3 {
-        font-size: 22px;
+        font-size: 20px;
     }
     .bloc1 {
         display: -webkit-box;
@@ -1360,6 +1361,7 @@ footer {
     }
     .img_card2 {
         height: 200px;
+        margin-bottom: 18px;
     }
     .card3 {
         width: 90%;
@@ -1367,6 +1369,7 @@ footer {
     }
     .img_card3 {
         height: 200px;
+        margin-bottom: 18px;
     }
     .all_cards4 {
         -webkit-box-pack: center;
@@ -1382,6 +1385,7 @@ footer {
     }
     .img_card4 {
         height: 200px;
+        margin-bottom: 18px;
     }
     .bloc2 {
         display: -webkit-box;
@@ -1401,6 +1405,7 @@ footer {
     }
     .img_card5 {
         height: 200px;
+        margin-bottom: 18px;
     }
     .card6 {
         width: 90%;
@@ -1408,6 +1413,7 @@ footer {
     }
     .img_card6 {
         height: 200px;
+        margin-bottom: 18px;
     }
    .footer_container {
         -webkit-box-orient: vertical;
@@ -1488,7 +1494,7 @@ footer {
         border: none;
     }
     .search_title {
-        font-size: 30px;
+        font-size: 28px;
     }
     .search_description {
         font-size: 22px;
@@ -1500,11 +1506,11 @@ footer {
     .fas.fa-map-marker-alt {
         width: 38px;
         padding: 20px;
-        font-size: 27px;
+        font-size: 26px;
     }
     .search_bar input {
         width: 100%;
-        font-size: 26px;
+        font-size: 22px;
     }
     #search_icon {
         width: 87px;
@@ -1525,40 +1531,34 @@ footer {
     .filter_title {
         width: 100%;
         margin-bottom: 15px;
-        font-size: 30px;
-    }
-    .filter {
-        width: 100%;
-        margin-right: 10px;
-        height: 70px;
-    }
-    .filter a {
-        -webkit-box-pack: start;
-        justify-content: flex-start;
-        -webkit-box-align: center;
-        align-items: center;
-    }
-    .filter_name {
-        width: 100%;
-        word-wrap: break-word;
-        white-space: unset;
-        font-size: 28px;
-    }
-    .filter_img {
-        width: 65px;
-        height: 48px;
-        line-height: 48px;
         font-size: 22px;
     }
+    .filter {
+        margin-right: 0;
+        height: 55px;
+    }
+    .filter:nth-child(3) {
+        margin-right: 20px;
+    }
+    .filter_name {
+        padding: 0 15px 0 10px;
+        font-size: 22px;
+    }
+    .filter_img {
+        width: 55px;
+        height: 55px;
+        font-size: 22px;
+        line-height: 55px;
+    }
     .fas.fa-info.fa-xs {
-        width: 42px;
-        height: 31px;
+        width: 30px;
+        height: 30px;
         line-height: 30px;
         text-align: center;
-        font-size: 15px;
+        font-size: 14px;
     }
     .info span {
-        font-size: 18px;
+        font-size: 17px;
     }
     #Hebergements {
         flex-wrap: wrap-reverse;
@@ -1571,8 +1571,8 @@ footer {
     }
     .title_hebergements {
         margin: 40px 0 35px 0;
-        padding-left: 5%;
-        font-size: 30px;
+        padding-left: 4%;
+        font-size: 28px;
     }
     .all_cards1 {
         width: 100%;
@@ -1590,18 +1590,20 @@ footer {
     .cards1 h2 {
         width: 100%;
         margin-bottom: 10px;
-        font-size: 22px;
+        margin-left: 12px;
+        font-size: 20px;
     }
     .description1 {
+        margin-left: 12px;
         font-size: 18px;
     }
     .stars1 {
-        margin: 10px 0 0px 10px;
+        margin: 10px 0 0px 12px;
         font-size: 17px;
     }
     .afficherplus {
-        padding-left: 5%;
-        font-size: 23px;
+        padding-left: 4%;
+        font-size: 22px;
     }
     .plus {
         margin-bottom: 0;
@@ -1612,16 +1614,16 @@ footer {
         border-radius: 0;
     }
     .title_cont2 {
-        padding-left: 3%;
-        padding-right: 3%;
+        padding-left: 4%;
+        padding-right: 4%;
     }
     .title_cont2 h2 {
         margin: 40px 0 35px 0;
-        font-size: 30px;
+        font-size: 28px;
     }
     .fas.fa-chart-line {
         padding: 0;
-        font-size: 30px;
+        font-size: 28px;
     }
     .cards2 {
         width: 90%;
@@ -1633,15 +1635,15 @@ footer {
         height: 190px;
     }
     .cards2 a h2 {
-        font-size: 22px;
+        margin-top: 0;
+        font-size: 20px;
     }
     .bloc_img2 {
         width: 40%;
-        margin-right: 22px;
+        margin-right: 12px;
     }
     .description2 {
-        width: 216px;
-        text-decoration: none;
+        margin-top: 10px;
     }
     .description2 > span {
         font-size: 18px;
@@ -1666,8 +1668,8 @@ footer {
     }
     .Activites_title {
         margin: 40px 0 35px 0;
-        padding-left: 5%;
-        font-size: 30px;
+        padding-left: 4%;
+        font-size: 28px;
     }
     .all_cards3 {
         -webkit-box-pack: center;
@@ -1684,10 +1686,10 @@ footer {
     .img_card1 {
         height: 200px;
         width: 100%;
-        margin-bottom: 15px;
+        margin-bottom: 18px;
     }
     .description3 {
-        font-size: 22px;
+        font-size: 20px;
     }
     .bloc1 {
         display: -webkit-box;
@@ -1706,7 +1708,7 @@ footer {
     }
     .img_card2 {
         height: 200px;
-        margin-bottom: 15px;
+        margin-bottom: 18px;
     }
     .card3 {
         width: 90%;
@@ -1714,7 +1716,7 @@ footer {
     }
     .img_card3 {
         height: 200px;
-        margin-bottom: 15px;
+        margin-bottom: 18px;
     }
     .all_cards4 {
         -webkit-box-pack: center;
@@ -1730,7 +1732,7 @@ footer {
     }
     .img_card4 {
         height: 200px;
-        margin-bottom: 15px;
+        margin-bottom: 18px;
     }
     .bloc2 {
         display: -webkit-box;
@@ -1746,11 +1748,11 @@ footer {
     .card5 {
         width: 90%;
         height: 270px;
-        margin-bottom: 20px;
+        margin-bottom: 18px;
     }
     .img_card5 {
         height: 200px;
-        margin-bottom: 15px;
+        margin-bottom: 18px;
     }
     .card6 {
         width: 90%;
@@ -1758,14 +1760,14 @@ footer {
     }
     .img_card6 {
         height: 200px;
-        margin-bottom: 15px;
+        margin-bottom: 18px;
     }
     .footer_container {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         flex-direction: column;
         height: 100%;
-        padding: 0 8%;
+        padding: 0 7%;
     }
     .footer_container h3 {
         font-size: 22px;
