@@ -236,6 +236,7 @@ form {
 
 /* CORPS DE PAGE SECTION HEBERGEMENT */
 #Hebergements {
+    display: -webkit-box;
     display: flex;
     margin-top: 40px;
 }
@@ -280,8 +281,8 @@ form {
 }
 
 .cards1:hover {
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }
@@ -386,12 +387,13 @@ form {
     margin-bottom: 40px;
     background-color: white;
     border-radius: 20px;
+    -webkit-box-shadow: 0 5px 15px lightgray;
     box-shadow: 0 5px 15px lightgray;
 }
 
 .cards2:hover {
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }
@@ -476,8 +478,8 @@ form {
 }
 
 .card1:hover {
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }
@@ -505,8 +507,8 @@ form {
 }
 
 .card2:hover {
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }
@@ -529,8 +531,8 @@ form {
 }
 
 .card3:hover {
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }
@@ -561,8 +563,8 @@ form {
 }
 
 .card4:hover {
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }
@@ -590,8 +592,8 @@ form {
 }
 
 .card5:hover {
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }
@@ -614,8 +616,8 @@ form {
 }
 
 .card6:hover {
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }
