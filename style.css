@@ -124,6 +124,11 @@ form {
     border-radius: 0 15px 15px 0px;
     background-color: #0065fc;
 }
+
+.search_btn:hover {
+    border: 1px solid #0065fc ;
+    background-color: #f2f2f2;
+}
    
 .btn {
     font-weight: bold;
@@ -132,6 +137,10 @@ form {
     font-size: 20px;
     line-height: 53px;
     padding: 15px;
+}
+
+.btn:hover {
+    color: #0065fc;
 }
 
 #search_icon {
@@ -167,6 +176,19 @@ form {
     border-radius: 40px;
 }
 
+.filter:hover .filter_img {
+    color: white;
+    background-color: #0065FC ;
+}
+
+.filter:hover .filter_name {
+    color: #0065FC ;
+}
+
+.filter a {
+    text-decoration: none;
+}
+
 .filter_img {
     display: inline-block;
     text-align: center;
@@ -181,18 +203,11 @@ form {
 
 .filter_name {
     display: inline-block;
-    font-size: 21px;
     padding-left: 13px;
     padding-right: 20px;
-    /*white-space: nowrap; */ 
-}
-
-.filter_name:hover {
-    color: #0065fc;
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-    -webkit-transition: 0.2s;
-    transition: 0.2s;
+    font-size: 21px;
+    text-decoration: none;
+    color: black;
 }
 
 /* INFORMATION */
@@ -317,6 +332,10 @@ form {
     color: black;
 }
 
+.afficherplus:hover {
+    color: #0065FC;
+}
+
 /* HEBERGEMENTS POPULAIRES */
 .hebergementspop {
     display: -webkit-box;
@@ -385,7 +404,7 @@ form {
 }
 
 .bloc_img2{
-    margin-right: 1px;
+    margin-right: 12px;
     width: 40%;
 }
 
@@ -961,6 +980,7 @@ footer {
     }
     .herbergementspop_allcards {
         width: 100%;
+        padding-bottom: 6%;
     }
     .cards2 {
         width: 100%;
