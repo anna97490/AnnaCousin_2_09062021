@@ -884,12 +884,6 @@ footer {
     .filter_bar {
         flex-wrap: wrap;  
     }
-    .main {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: reverse;
-        flex-direction: column-reverse;
-        flex-wrap: wrap;
-    }
     #Hebergements {
         flex-wrap: wrap-reverse;
         margin-right: 0;
@@ -999,6 +993,8 @@ footer {
         align-items: center;
     }
     .activites_allcards {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
         flex-direction: column;
         width: 100%;
     }
@@ -1031,8 +1027,9 @@ footer {
         font-weight: bold;
     }
     .footer_container {
-        padding: 0 7%;
+        -webkit-box-pack: justify;
         justify-content: space-between;
+        padding: 0 7%;
     }
     .footer_container h3 {
         font-size: 22px;
@@ -1297,6 +1294,8 @@ footer {
     .bloc1 , .bloc2 {
         display: -webkit-box;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
         flex-direction: column;
         width: 100%;
     }
@@ -1587,6 +1586,8 @@ footer {
     .bloc1 , .bloc2 {
         display: -webkit-box;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
         flex-direction: column;
         width: 100%;
     }
@@ -1613,16 +1614,16 @@ footer {
         font-size: 20px;
     }
     .apropos {
-    width: 100%;
-    padding-bottom: 0;
+        width: 100%;
+        padding-bottom: 0;
     }
     .noshebergements {
-    width: 100%;
-    padding-left: 0;
+        width: 100%;
+        padding-left: 0;
     }
     .assistance {
-    width: 100%;
-    padding: 0 0 50px 0 ;
+        width: 100%;
+        padding: 0 0 50px 0 ;
     }
 }
 
