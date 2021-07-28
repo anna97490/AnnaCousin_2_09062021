@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 ## Projet Numéro 2 - Reservia :
 L'obectif est d'intégrer la maquette ci-dessous. Il s'agit d'un site de réservations de vacances nommé Reservia.
 
