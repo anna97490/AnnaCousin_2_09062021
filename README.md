@@ -24,7 +24,11 @@ CAHIER DES CHARGES
 -Le code doit être versionné avec git et doit avoir un repo distant sur Github ou Gitlab.
 
 
+
+
 DOCUMENTS FOURNIS : 
+
+
 -Une maquette desktop et une mobile.
 -Deux dossiers d'images ayant des tailles différentes : xl, l, m, et s.
 -Le logo.
