@@ -448,6 +448,10 @@ form {
     font-size: 12px;
     color: #0065FC;
 }
+.cards2:nth-child(1)
+.stars2{
+    margin-top: 46px;
+}
 
 /* ACTIVITES A MARSEILLE */
 #Activites {
@@ -704,6 +708,11 @@ footer {
     .footer_container {
         padding: 3% 8%;
     }
+    .cards2:nth-child(1)
+    .stars2{
+        margin-top: 28px;
+    }
+
 }
     
 @media screen and (min-width: 993px) and (max-width: 1200px) {
@@ -774,6 +783,10 @@ footer {
         margin-bottom: 10px;
     }
     .stars2 {
+        margin-top: 65px;
+    }
+    .cards2:nth-child(1)
+    .stars2{
         margin-top: 65px;
     }
     .cards2:nth-child(2)
@@ -870,6 +883,10 @@ footer {
         width: 47%;
         height: 156px;
         margin-bottom: 40px;
+    }
+    .cards2:nth-child(1)
+    .stars2{
+        margin-top: 65px;
     }
     .bloc_img2{
         margin-right: 22px;
@@ -1289,6 +1306,10 @@ footer {
     .stars2 {
         margin-top: 35px;
         font-size: 15px;
+    }
+    .cards2:nth-child(1)
+    .stars2{
+        margin-top: 35px;
     }
     .container_activities {
         margin-top: 40px;
