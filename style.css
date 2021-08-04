@@ -64,7 +64,7 @@ body {
 }
 
 .navigation_tab a:hover {
-    padding-top: 30px;
+    padding-top: 35px;
     color: #0065fc;
     border-top: 2px solid #0065fc;
 }
@@ -81,7 +81,7 @@ body {
 }
 
 .sinscrire a:hover {
-    padding-top: 30px;
+    padding-top: 35px;
     color: #0065fc;
     border-top: 2px solid #0065fc;
 }
@@ -245,13 +245,13 @@ form {
 }
 
 /* CORPS DE PAGE SECTION HEBERGEMENT */
-#Hebergements {
+.hebergements_container {
     display: -webkit-box;
     display: flex;
     margin-top: 40px;
 }
 
-#Hebergements section {
+#Hebergements {
     display: -webkit-box;
     display: flex;
     flex-wrap: wrap; 
@@ -712,7 +712,6 @@ footer {
     .stars2{
         margin-top: 28px;
     }
-
 }
     
 @media screen and (min-width: 993px) and (max-width: 1200px) {
@@ -720,15 +719,15 @@ footer {
       width: 980px;
       margin: auto;
     } 
-    #Hebergements , .filter_bar {
+    .hebergements_container , .filter_bar {
         flex-wrap: wrap;
+    }
+    #Hebergements {
+        width: 100%;
+        margin-right: 0;
     }
     .hebergements_title {
         padding-left: 4%;
-    }
-    #Hebergements section {
-        width: 100%;
-        margin-right: 0;
     }
     .cards1 {
         width: 28%;
@@ -821,10 +820,10 @@ footer {
     .filter_bar {
         flex-wrap: wrap;
     }
-    #Hebergements {
+    .hebergements_container {
         flex-wrap: wrap-reverse;
     }
-    #Hebergements section {
+    #Hebergements {
         width: 100%;
         margin-right: 0;
         margin-bottom: 40px;
@@ -951,11 +950,11 @@ footer {
     .filter_bar {
         flex-wrap: wrap;  
     }
-    #Hebergements {
+    .hebergements_container {
         flex-wrap: wrap-reverse;
         margin-right: 0;
     }
-    #Hebergements section {
+    #Hebergements {
         width: 100%;
         margin-right: 0;
         margin-top: 70px;
@@ -1040,6 +1039,9 @@ footer {
     .stars2 {
         margin-top: 70px;
         font-size: 15px;
+    }
+    .cards2:nth-child(1) .stars2 {
+        margin-top: 70px;
     }
     #Activites {
         margin-top: 70px;
@@ -1216,10 +1218,10 @@ footer {
         text-align: center;
         font-size: 14px;
     }
-    #Hebergements {
+    .hebergements_container {
         flex-wrap: wrap-reverse;
     } 
-    #Hebergements section {
+    #Hebergements {
         width: 100%;
         margin-top: 40px;
         margin-right: 0;
